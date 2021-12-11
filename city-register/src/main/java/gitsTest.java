@@ -15,5 +15,7 @@ public class gitsTest {
 			System.out.print(l+" ");
 		}
 		
+		System.out.println("Check stash");
+		
  	}
 }
