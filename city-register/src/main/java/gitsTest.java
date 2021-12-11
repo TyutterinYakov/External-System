@@ -6,6 +6,7 @@ public class gitsTest {
 		System.out.println("Hello GITHUB");
 		
 		
+
 		List<Long> list = new LinkedList<Long>();
 		for(Long i=0L; i<20; i++) {
 			list.add(i);
@@ -17,5 +18,7 @@ public class gitsTest {
 		
 		System.out.println("Check stash");
 		
- 	}
+
+		System.out.println("Clone branch");
+	}
 }

@@ -3,6 +3,7 @@
   <groupId>edu.javacourse.ext</groupId>
   <artifactId>city-register</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
