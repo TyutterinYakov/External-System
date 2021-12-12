@@ -33,8 +33,6 @@ public class PersonCheckDao {
 		PersonResponse response = new PersonResponse();
 		
 		String sql = SQL_REQUEST;
-		boolean extension = false;
-		boolean appartment = false;
 		if(rq.getExtension()!=null) {
 			sql+="and upper(a.extension COLLATE \"en_US.UTF-8\")=upper(? COLLATE \"en_US.UTF-8\") ";
 		} else {
