@@ -39,7 +39,7 @@ create table cr_address
 insert into cr_address(district_code, street_code, building, extension, apartment)
  values (1, 1, '10', '2', '222');
  insert into cr_address(district_code, street_code, building, extension, apartment)
- values (1, 1, '34', '1', '111');
+ values (1, 1, '34', null, '18');
 
 
 create table cr_person
@@ -63,7 +63,7 @@ values ('Кротов', 'Александр', 'Витальевич', '2001-06-0
 
 insert into cr_person(sur_name, given_name, patronymic,  date_of_birth,  passport_seria, passport_number,
 passport_date, c_certificate_number, c_certificate_date)
-values ('Кротова', 'Василиса', 'Николевна', '2000-01-03', '4115', '680124', '2020-01-26', null, null);
+values ('Кротова', 'Василиса', 'Николаевна', '2000-01-03', '4115', '680124', '2020-01-26', null, null);
 
 insert into cr_person(sur_name, given_name, patronymic,  date_of_birth,  passport_seria, passport_number,
 passport_date, c_certificate_number, c_certificate_date)
@@ -89,7 +89,7 @@ create table cr_address_person
 insert into cr_address_person (address_id, person_id, start_date, end_date, temporal) 
 values (1, 1, '2018-10-12', null, false);
 insert into cr_address_person (address_id, person_id, start_date, end_date) 
-values (1, 2, '2018-10-12', null);
+values (2, 2, '2018-10-12', null);
 insert into cr_address_person (address_id, person_id, start_date, end_date) 
 values (1, 4, '2020-01-05', null);
 insert into cr_address_person (address_id, person_id, start_date, end_date) 
