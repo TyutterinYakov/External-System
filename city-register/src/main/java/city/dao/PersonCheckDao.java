@@ -48,7 +48,6 @@ public class PersonCheckDao {
 		try(Connection con = getConnection();
 				PreparedStatement prt = con.prepareStatement(sql);
 			){
-			
 			int count=1;
 			prt.setString(count++, rq.getSurName());
 			prt.setString(count++, rq.getGivenName());
