@@ -27,6 +27,8 @@ public class PersonCheckDaoTest {
 		pr.setApartment("222");
 		
 		PersonCheckDao pcd = new PersonCheckDao();
+		pcd.setConnectionBuilder(new DirectConnectionBuilder());
+		
 		PersonResponse ps = pcd.checkPerson(pr);
 		
 		Assert.assertTrue(ps.isRegistered());
@@ -47,6 +49,8 @@ public class PersonCheckDaoTest {
 		pr.setApartment("18");
 		
 		PersonCheckDao pcd = new PersonCheckDao();
+		pcd.setConnectionBuilder(new DirectConnectionBuilder());
+		
 		PersonResponse ps = pcd.checkPerson(pr);
 		
 		Assert.assertTrue(ps.isRegistered());

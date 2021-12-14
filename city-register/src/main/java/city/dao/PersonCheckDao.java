@@ -23,10 +23,25 @@ public class PersonCheckDao {
 			+ "and p.date_of_birth=? and a.street_code = ?"
 			+ "and upper(a.building COLLATE \"en_US.UTF-8\") = upper(? COLLATE \"en_US.UTF-8\") ";
 	
+	private ConnectionBuilder connectionBuilder;
+	
+	
+	
+//	public PersonCheckDao() {
+//		try {
+//			Class.forName("org.postgresql.Driver");
+//		} catch(Exception ex) {
+//			ex.printStackTrace();
+//		}
+//	}
+	
+	public void setConnectionBuilder(ConnectionBuilder connectionBuilder) {
+		this.connectionBuilder = connectionBuilder;
+	}
+
 	private Connection getConnection() throws SQLException {
 		
-		return DriverManager.getConnection("jdbc:postgresql://localhost/city_register",
-				"postgres", "login456456");
+		return connectionBuilder.getConnection();
 	}
 	
 	public PersonResponse checkPerson(PersonRequest rq) throws PersonCheckException {
