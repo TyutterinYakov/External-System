@@ -1,12 +1,10 @@
 package city.dao;
-import static org.junit.Assert.*;
 
 import java.time.LocalDate;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import city.dao.PersonCheckDao;
 import city.domain.PersonRequest;
 import city.domain.PersonResponse;
 import city.exception.PersonCheckException;

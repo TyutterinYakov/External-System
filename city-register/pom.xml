@@ -9,17 +9,17 @@
      <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<configuration>
+						<failOnMissingWebXml>false</failOnMissingWebXml>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
 		<dependencies>
 		
 		<!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
@@ -44,13 +44,13 @@
 		    <version>1.8.0-beta4</version>
 		</dependency>
 		
-		
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14 -->
- 	<dependency>
+ 		<dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.5</version>
         </dependency>
+        
 		<dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
@@ -62,6 +62,22 @@
 		    <artifactId>postgresql</artifactId>
 		    <version>42.3.1</version>
 		</dependency>
+		
+		
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet -->
+		<dependency>
+		    <groupId>org.glassfish.jersey.containers</groupId>
+		    <artifactId>jersey-container-servlet</artifactId>
+		    <version>3.0.3</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.inject/jersey-hk2 -->
+		<dependency>
+		    <groupId>org.glassfish.jersey.inject</groupId>
+		    <artifactId>jersey-hk2</artifactId>
+		    <version>3.0.3</version>
+		</dependency>
+
 		</dependencies>
   
   

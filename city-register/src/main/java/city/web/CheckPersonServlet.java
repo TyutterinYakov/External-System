@@ -2,6 +2,7 @@ package city.web;
 
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -42,15 +43,16 @@ public class CheckPersonServlet extends HttpServlet{
 		String surName = req.getParameter("surname");
 		
 		PersonRequest pr = new PersonRequest();
-		pr.setSurName(surName);
-		pr.setGivenName("Александр");
-		pr.setPatronymic("Витальевич");
-		pr.setStreetCode(1);
-		pr.setDateOfBirth(LocalDate.of(2001, 6, 8));
-		pr.setStreetCode(1);
-		pr.setBuilding("10");
-		pr.setExtension("2");
-		pr.setApartment("222");
+		pr.setSurName(req.getParameter("surname"));
+		pr.setGivenName(req.getParameter("givenname"));
+		pr.setPatronymic(req.getParameter("patronymic"));
+		LocalDate date = LocalDate.parse(req.getParameter("dateOfBirth"), DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+		pr.setDateOfBirth(date);
+		int streetCode = Integer.parseInt(req.getParameter("streetcode"));
+		pr.setStreetCode(streetCode);
+		pr.setBuilding(req.getParameter("building"));
+		pr.setExtension(req.getParameter("extension"));
+		pr.setApartment(req.getParameter("apartment"));
 		
 		try {
 			PersonResponse ps = pcd.checkPerson(pr);
