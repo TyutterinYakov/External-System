@@ -2,12 +2,15 @@ package city.domain;
 
 import java.time.LocalDate;
 
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+
 public class PersonRequest {
 	
 	
 	private String surName;
 	private String givenName;
 	private String patronymic;
+	@XmlJavaTypeAdapter(value = LocalDateAdapter.class)
 	private LocalDate dateOfBirth;
 	private Integer streetCode;
 	private String building;
@@ -62,6 +65,11 @@ public class PersonRequest {
 		this.streetCode = streetCode;
 	}
 	
+	@Override
+	public String toString() {
+		return surName+" "+givenName+" "+patronymic+" "+dateOfBirth+" "+streetCode+" "+
+				building+" "+extension+" "+apartment;
+	}
 	
 	
 	

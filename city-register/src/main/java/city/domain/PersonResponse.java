@@ -17,4 +17,9 @@ public class PersonResponse {
 		this.temporal = temporal;
 	}
 	
+	@Override
+	public String toString() {
+		return registered+" "+temporal;
+	}
+	
 }

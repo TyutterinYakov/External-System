@@ -1,20 +1,26 @@
 package city.web;
 
-import jakarta.ws.rs.GET;
+
+import city.domain.PersonRequest;
+import city.domain.PersonResponse;
+import jakarta.ws.rs.Consumes;
+
+import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
-import jakarta.ws.rs.PathParam;
-import jakarta.ws.rs.QueryParam;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
 
 @Path("/check")
 public class CheckPersonService 
 {
-	@GET
-	@Path("/{id}")
-	public String checkPerson(@PathParam("id") int simpleId, 
-			@QueryParam("name") String simpleName) {
+	
+	
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON) //Вход
+	@Produces(MediaType.APPLICATION_JSON) //Выход
+	public PersonResponse checkPerson(PersonRequest request) {
+		System.out.println(request.toString());
 		
-		
-		
-		return simpleId+": "+simpleName;
+		return new PersonResponse();
 	}
 }
