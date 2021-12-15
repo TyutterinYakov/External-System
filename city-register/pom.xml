@@ -16,6 +16,7 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<configuration>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
+						<outputDirectory>/Users/asatutterin/Desktop/TOM/apache-tomcat-10.0.14/webapps</outputDirectory>
 					</configuration>
 				</plugin>
 			</plugins>

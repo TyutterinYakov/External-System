@@ -42,9 +42,9 @@ public class PersonCheckDaoTest {
 		pr.setStreetCode(1);
 		pr.setDateOfBirth(LocalDate.of(2000, 1, 3));
 		pr.setStreetCode(1);
-		pr.setBuilding("34");
-//		pr.setExtension("");
-		pr.setApartment("18");
+		pr.setBuilding("10");
+		pr.setExtension("2");
+		pr.setApartment("222");
 		
 		PersonCheckDao pcd = new PersonCheckDao();
 		pcd.setConnectionBuilder(new DirectConnectionBuilder());
