@@ -1,0 +1,1078 @@
+2021-12-17 13:12:34 INFO  [main]: TEST start
+2021-12-17 13:12:34 DEBUG [main]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2021-12-17 13:12:34 DEBUG [main]: Located and parsed 1 persistence units; checking each
+2021-12-17 13:12:34 DEBUG [main]: Checking persistence-unit [name=persistence, explicit-provider=org.hibernate.jpa.HibernatePersistenceProvider] against incoming persistence unit name [persistence]
+2021-12-17 13:12:34 DEBUG [main]: Persistence-unit [persistence] requested PersistenceProvider [org.hibernate.jpa.HibernatePersistenceProvider]
+2021-12-17 13:12:34 DEBUG [main]: PersistenceUnitInfo [
+	name: persistence
+	persistence provider classname: org.hibernate.jpa.HibernatePersistenceProvider
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/asatutterin/Desktop/studproj/ext-systems/register-office/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names []
+	Mapping files names []
+	Properties [
+		javax.persistence.jdbc.driver: org.postgresql.Driver
+		javax.persistence.jdbc.password: login456456
+		hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+		javax.persistence.jdbc.url: jdbc:postgresql://localhost:5432/register_office
+		hibernate.show_sql: false
+		hibernate.format_sql: false
+		javax.persistence.jdbc.user: postgres]
+2021-12-17 13:12:34 DEBUG [main]: Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2021-12-17 13:12:34 DEBUG [main]: Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2021-12-17 13:12:34 DEBUG [main]: Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2021-12-17 13:12:34 INFO  [main]: HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-17 13:12:34 DEBUG [main]: HHH000206: hibernate.properties not found
+2021-12-17 13:12:34 DEBUG [main]: Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2021-12-17 13:12:35 DEBUG [main]: Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2021-12-17 13:12:35 DEBUG [main]: Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2021-12-17 13:12:35 INFO  [main]: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration boolean -> org.hibernate.type.BooleanType@cc6460c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration boolean -> org.hibernate.type.BooleanType@cc6460c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@cc6460c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2427e004
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration true_false -> org.hibernate.type.TrueFalseType@1b58ff9e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration yes_no -> org.hibernate.type.YesNoType@2a492f2a
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration byte -> org.hibernate.type.ByteType@2d72f75e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration byte -> org.hibernate.type.ByteType@2d72f75e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@2d72f75e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration character -> org.hibernate.type.CharacterType@486be205
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration char -> org.hibernate.type.CharacterType@486be205
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@486be205
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration short -> org.hibernate.type.ShortType@620aa4ea
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration short -> org.hibernate.type.ShortType@620aa4ea
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Short -> org.hibernate.type.ShortType@620aa4ea
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration integer -> org.hibernate.type.IntegerType@13006998
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration int -> org.hibernate.type.IntegerType@13006998
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@13006998
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration long -> org.hibernate.type.LongType@54afd745
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration long -> org.hibernate.type.LongType@54afd745
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Long -> org.hibernate.type.LongType@54afd745
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration float -> org.hibernate.type.FloatType@51768776
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration float -> org.hibernate.type.FloatType@51768776
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Float -> org.hibernate.type.FloatType@51768776
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration double -> org.hibernate.type.DoubleType@d1f74b8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration double -> org.hibernate.type.DoubleType@d1f74b8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@d1f74b8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@287f94b1
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@287f94b1
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5149f008
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5149f008
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration string -> org.hibernate.type.StringType@35038141
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.String -> org.hibernate.type.StringType@35038141
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration nstring -> org.hibernate.type.StringNVarcharType@50305a
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@40f33492
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration url -> org.hibernate.type.UrlType@5bd73d1a
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.net.URL -> org.hibernate.type.UrlType@5bd73d1a
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration Duration -> org.hibernate.type.DurationType@173b9122
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.Duration -> org.hibernate.type.DurationType@173b9122
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration Instant -> org.hibernate.type.InstantType@1e11bc55
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1e11bc55
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@82c57b3
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@82c57b3
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1734f68
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1734f68
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7dac3fd8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7dac3fd8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6ce1f601
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6ce1f601
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@372b0d86
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@372b0d86
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1edb61b1
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1edb61b1
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration date -> org.hibernate.type.DateType@49a64d82
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.sql.Date -> org.hibernate.type.DateType@49a64d82
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration time -> org.hibernate.type.TimeType@52d10fb8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.sql.Time -> org.hibernate.type.TimeType@52d10fb8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration timestamp -> org.hibernate.type.TimestampType@503d56b5
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@503d56b5
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.Date -> org.hibernate.type.TimestampType@503d56b5
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2575f671
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration calendar -> org.hibernate.type.CalendarType@581d969c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@581d969c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@581d969c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@46cf05f7
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@3a80515c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration locale -> org.hibernate.type.LocaleType@588ab592
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@588ab592
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration currency -> org.hibernate.type.CurrencyType@58a55449
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@58a55449
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration timezone -> org.hibernate.type.TimeZoneType@733037
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@733037
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration class -> org.hibernate.type.ClassType@1af7f54a
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1af7f54a
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@54e7391d
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@54e7391d
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@3c8bdd5b
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration binary -> org.hibernate.type.BinaryType@1bc53649
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration byte[] -> org.hibernate.type.BinaryType@1bc53649
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration [B -> org.hibernate.type.BinaryType@1bc53649
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4d0402b
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4d0402b
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4d0402b
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration row_version -> org.hibernate.type.RowVersionType@3f2049b6
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration image -> org.hibernate.type.ImageType@e72dba7
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration characters -> org.hibernate.type.CharArrayType@610db97e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration char[] -> org.hibernate.type.CharArrayType@610db97e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration [C -> org.hibernate.type.CharArrayType@610db97e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7bd69e82
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7bd69e82
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7bd69e82
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration text -> org.hibernate.type.TextType@27dc79f7
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration ntext -> org.hibernate.type.NTextType@18e8473e
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration blob -> org.hibernate.type.BlobType@6f6a7463
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6f6a7463
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@50d68830
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration clob -> org.hibernate.type.ClobType@3301500b
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3301500b
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration nclob -> org.hibernate.type.NClobType@27a0a5a2
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27a0a5a2
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@106faf11
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7dd712e8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration serializable -> org.hibernate.type.SerializableType@54a3ab8f
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration object -> org.hibernate.type.ObjectType@61a5b4ae
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@61a5b4ae
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@437e951d
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@77b325b3
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@63a5e46c
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7e8e8651
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@49ef32e0
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@271f18d3
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@6bd51ed8
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@61e3a1fd
+2021-12-17 13:12:35 DEBUG [main]: Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@39fc6b2c] into BootstrapContext; was [null]
+2021-12-17 13:12:35 DEBUG [main]: Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@704b2127] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@3ee39da0]
+2021-12-17 13:12:35 DEBUG [main]: Injecting JPA temp ClassLoader [null] into BootstrapContext; was [null]
+2021-12-17 13:12:35 DEBUG [main]: ClassLoaderAccessImpl#injectTempClassLoader(null) [was null]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-12-17 13:12:35 DEBUG [main]: Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-12-17 13:12:35 WARN  [main]: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-12-17 13:12:35 INFO  [main]: HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/register_office]
+2021-12-17 13:12:35 INFO  [main]: HHH10001001: Connection properties: {password=login456456, user=postgres}
+2021-12-17 13:12:35 INFO  [main]: HHH10001003: Autocommit mode: false
+2021-12-17 13:12:35 DEBUG [main]: Initializing Connection pool with 1 Connections
+2021-12-17 13:12:35 INFO  [main]: HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-12-17 13:12:35 DEBUG [main]: Database ->
+       name : PostgreSQL
+    version : 14.1
+      major : 14
+      minor : 1
+2021-12-17 13:12:35 DEBUG [main]: Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.3.1
+      major : 42
+      minor : 3
+2021-12-17 13:12:35 DEBUG [main]: JDBC version : 4.2
+2021-12-17 13:12:35 INFO  [main]: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-12-17 13:12:35 DEBUG [main]: JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2021-12-17 13:12:35 DEBUG [main]: Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@64aad6db
+2021-12-17 13:12:35 DEBUG [main]: Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@64aad6db
+2021-12-17 13:12:35 DEBUG [main]: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@54e7391d
+2021-12-17 13:12:35 DEBUG [main]: Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@74ad8d05] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@676ff3b0]
+2021-12-17 13:12:36 DEBUG [main]: Binding entity from annotated class: register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]: Binding named query: Person.findPersons => SELECT p FROM Person p LEFT JOIN FETCH p.passports LEFT JOIN FETCH p.birthCertificate where p.personId =:pId
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3DiscriminatorColumn{logicalColumnName'sex', discriminatorTypeName='integer'}
+2021-12-17 13:12:36 DEBUG [main]: Import with entity name Person
+2021-12-17 13:12:36 DEBUG [main]: Bind entity register.domain.Person on table ro_person
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=person_id, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.Person] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property personId with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Person:personId]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for personId
+2021-12-17 13:12:36 DEBUG [main]: Building property personId
+2021-12-17 13:12:36 DEBUG [main]: #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(person_id)]), personId, identity, , ...)
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='person'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=birthCertificate, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=date_of_birth, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property dateOfBirth with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Person:dateOfBirth]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for dateOfBirth
+2021-12-17 13:12:36 DEBUG [main]: Building property dateOfBirth
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property firstName with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Person:firstName]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for firstName
+2021-12-17 13:12:36 DEBUG [main]: Building property firstName
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property lasName with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Person:lasName]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for lasName
+2021-12-17 13:12:36 DEBUG [main]: Building property lasName
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='person'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=passports, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=passports_KEY, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='passports_KEY', referencedColumn='null', mappedBy='null'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='person'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='person'}
+2021-12-17 13:12:36 DEBUG [main]: Collection role: register.domain.Person.passports
+2021-12-17 13:12:36 DEBUG [main]: Building property passports
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=patronymic, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property patronymic with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Person:patronymic]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for patronymic
+2021-12-17 13:12:36 DEBUG [main]: Building property patronymic
+2021-12-17 13:12:36 DEBUG [main]: Binding entity from annotated class: register.domain.Passport
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-12-17 13:12:36 DEBUG [main]: Import with entity name Passport
+2021-12-17 13:12:36 DEBUG [main]: Bind entity register.domain.Passport on table ro_passport
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_passport), mappingColumn=passport_id, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.Passport] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.Passport
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property passportId with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Passport:passportId]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for passportId
+2021-12-17 13:12:36 DEBUG [main]: Building property passportId
+2021-12-17 13:12:36 DEBUG [main]: #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(passport_id)]), passportId, identity, , ...)
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_passport), mappingColumn=issue_date, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property issueDate with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Passport:issueDate]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for issueDate
+2021-12-17 13:12:36 DEBUG [main]: Building property issueDate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_passport), mappingColumn=issue_department, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property issueDepartment with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Passport:issueDepartment]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for issueDepartment
+2021-12-17 13:12:36 DEBUG [main]: Building property issueDepartment
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_passport), mappingColumn=number, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property number with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Passport:number]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for number
+2021-12-17 13:12:36 DEBUG [main]: Building property number
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='person_id', referencedColumn='', mappedBy=''}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_passport), mappingColumn=person, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Building property person
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_passport), mappingColumn=seria, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property seria with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.Passport:seria]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for seria
+2021-12-17 13:12:36 DEBUG [main]: Building property seria
+2021-12-17 13:12:36 DEBUG [main]: Binding entity from annotated class: register.domain.PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Import with entity name PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='mother'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=birthCertificates, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=birthCertificates_KEY, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='birthCertificates_KEY', referencedColumn='null', mappedBy='null'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='mother'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='mother'}
+2021-12-17 13:12:36 DEBUG [main]: Collection role: register.domain.PersonFemale.birthCertificates
+2021-12-17 13:12:36 DEBUG [main]: Building property birthCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='wife'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=marriageCertificates, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=marriageCertificates_KEY, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='marriageCertificates_KEY', referencedColumn='null', mappedBy='null'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='wife'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='wife'}
+2021-12-17 13:12:36 DEBUG [main]: Collection role: register.domain.PersonFemale.marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]: Building property marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding entity from annotated class: register.domain.BirthCertificate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-12-17 13:12:36 DEBUG [main]: Import with entity name BirthCertificate
+2021-12-17 13:12:36 DEBUG [main]: Bind entity register.domain.BirthCertificate on table ro_birth_certificate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_birth_certificate), mappingColumn=birth_certificate_id, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.BirthCertificate] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.BirthCertificate
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property birthCertificateId with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.BirthCertificate:birthCertificateId]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for birthCertificateId
+2021-12-17 13:12:36 DEBUG [main]: Building property birthCertificateId
+2021-12-17 13:12:36 DEBUG [main]: #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(birth_certificate_id)]), birthCertificateId, identity, , ...)
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='father_id', referencedColumn='', mappedBy=''}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_birth_certificate), mappingColumn=father, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Building property father
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_birth_certificate), mappingColumn=issue_date, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property issueDate with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.BirthCertificate:issueDate]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for issueDate
+2021-12-17 13:12:36 DEBUG [main]: Building property issueDate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='mother_id', referencedColumn='', mappedBy=''}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_birth_certificate), mappingColumn=mother, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Building property mother
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_birth_certificate), mappingColumn=number_certificate, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property number with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.BirthCertificate:number]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for number
+2021-12-17 13:12:36 DEBUG [main]: Building property number
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='person_id', referencedColumn='', mappedBy=''}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_birth_certificate), mappingColumn=person, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Building property person
+2021-12-17 13:12:36 DEBUG [main]: Binding entity from annotated class: register.domain.PersonMale
+2021-12-17 13:12:36 DEBUG [main]: Import with entity name PersonMale
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='father'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=birthCertificates, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=birthCertificates_KEY, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='birthCertificates_KEY', referencedColumn='null', mappedBy='null'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='father'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='father'}
+2021-12-17 13:12:36 DEBUG [main]: Collection role: register.domain.PersonMale.birthCertificates
+2021-12-17 13:12:36 DEBUG [main]: Building property birthCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='husband'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=marriageCertificates, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_person), mappingColumn=marriageCertificates_KEY, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='marriageCertificates_KEY', referencedColumn='null', mappedBy='null'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='husband'}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='husband'}
+2021-12-17 13:12:36 DEBUG [main]: Collection role: register.domain.PersonMale.marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]: Building property marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding entity from annotated class: register.domain.MarriageCertificate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-12-17 13:12:36 DEBUG [main]: Import with entity name MarriageCertificate
+2021-12-17 13:12:36 DEBUG [main]: Bind entity register.domain.MarriageCertificate on table ro_marriage_certificate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_marriage_certificate), mappingColumn=marriage_certificate_id, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.MarriageCertificate] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.MarriageCertificate
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property marriageCertificateId with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.MarriageCertificate:marriageCertificateId]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for marriageCertificateId
+2021-12-17 13:12:36 DEBUG [main]: Building property marriageCertificateId
+2021-12-17 13:12:36 DEBUG [main]: #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(marriage_certificate_id)]), marriageCertificateId, identity, , ...)
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_marriage_certificate), mappingColumn=active, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property active with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.MarriageCertificate:active]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for active
+2021-12-17 13:12:36 DEBUG [main]: Building property active
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_marriage_certificate), mappingColumn=end_date, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property endDate with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.MarriageCertificate:endDate]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for endDate
+2021-12-17 13:12:36 DEBUG [main]: Building property endDate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='husband_id', referencedColumn='', mappedBy=''}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_marriage_certificate), mappingColumn=husband, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Building property husband
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_marriage_certificate), mappingColumn=issue_date, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property issueDate with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.MarriageCertificate:issueDate]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for issueDate
+2021-12-17 13:12:36 DEBUG [main]: Building property issueDate
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_marriage_certificate), mappingColumn=number_certificate, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: MetadataSourceProcessor property number with lazy=false
+2021-12-17 13:12:36 DEBUG [main]: Attempting to locate auto-apply AttributeConverter for property [register.domain.MarriageCertificate:number]
+2021-12-17 13:12:36 DEBUG [main]: building SimpleValue for number
+2021-12-17 13:12:36 DEBUG [main]: Building property number
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3JoinColumn{logicalColumnName='wife_id', referencedColumn='', mappedBy=''}
+2021-12-17 13:12:36 DEBUG [main]: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ro_marriage_certificate), mappingColumn=wife, insertable=true, updatable=true, unique=false}
+2021-12-17 13:12:36 DEBUG [main]: Building property wife
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for personId
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for dateOfBirth
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for firstName
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for lasName
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for patronymic
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for passportId
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for issueDate
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for issueDepartment
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for number
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for seria
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for birthCertificateId
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for issueDate
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for number
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for marriageCertificateId
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for active
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for endDate
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for issueDate
+2021-12-17 13:12:36 DEBUG [main]: Starting fillSimpleValue for number
+2021-12-17 13:12:36 DEBUG [main]: Forcing column [person_id] to be non-null as it is part of the primary key for table [ro_person]
+2021-12-17 13:12:36 DEBUG [main]: Forcing column [passport_id] to be non-null as it is part of the primary key for table [ro_passport]
+2021-12-17 13:12:36 DEBUG [main]: Forcing column [birth_certificate_id] to be non-null as it is part of the primary key for table [ro_birth_certificate]
+2021-12-17 13:12:36 DEBUG [main]: Forcing column [marriage_certificate_id] to be non-null as it is part of the primary key for table [ro_marriage_certificate]
+2021-12-17 13:12:36 DEBUG [main]: Building property birthCertificate
+2021-12-17 13:12:36 DEBUG [main]: Second pass for collection: register.domain.Person.passports
+2021-12-17 13:12:36 DEBUG [main]: Binding a OneToMany: register.domain.Person.passports through a foreign key
+2021-12-17 13:12:36 DEBUG [main]: Mapping collection: register.domain.Person.passports -> ro_passport
+2021-12-17 13:12:36 DEBUG [main]: Retrieving property register.domain.Passport.person
+2021-12-17 13:12:36 DEBUG [main]: Mapped collection key: person_id, one-to-many: register.domain.Passport
+2021-12-17 13:12:36 DEBUG [main]: Second pass for collection: register.domain.PersonFemale.birthCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding a OneToMany: register.domain.PersonFemale.birthCertificates through a foreign key
+2021-12-17 13:12:36 DEBUG [main]: Mapping collection: register.domain.PersonFemale.birthCertificates -> ro_birth_certificate
+2021-12-17 13:12:36 DEBUG [main]: Retrieving property register.domain.BirthCertificate.mother
+2021-12-17 13:12:36 DEBUG [main]: Mapped collection key: mother_id, one-to-many: register.domain.BirthCertificate
+2021-12-17 13:12:36 DEBUG [main]: Second pass for collection: register.domain.PersonFemale.marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding a OneToMany: register.domain.PersonFemale.marriageCertificates through a foreign key
+2021-12-17 13:12:36 DEBUG [main]: Mapping collection: register.domain.PersonFemale.marriageCertificates -> ro_marriage_certificate
+2021-12-17 13:12:36 DEBUG [main]: Retrieving property register.domain.MarriageCertificate.wife
+2021-12-17 13:12:36 DEBUG [main]: Mapped collection key: wife_id, one-to-many: register.domain.MarriageCertificate
+2021-12-17 13:12:36 DEBUG [main]: Second pass for collection: register.domain.PersonMale.birthCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding a OneToMany: register.domain.PersonMale.birthCertificates through a foreign key
+2021-12-17 13:12:36 DEBUG [main]: Mapping collection: register.domain.PersonMale.birthCertificates -> ro_birth_certificate
+2021-12-17 13:12:36 DEBUG [main]: Retrieving property register.domain.BirthCertificate.father
+2021-12-17 13:12:36 DEBUG [main]: Mapped collection key: father_id, one-to-many: register.domain.BirthCertificate
+2021-12-17 13:12:36 DEBUG [main]: Second pass for collection: register.domain.PersonMale.marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]: Binding a OneToMany: register.domain.PersonMale.marriageCertificates through a foreign key
+2021-12-17 13:12:36 DEBUG [main]: Mapping collection: register.domain.PersonMale.marriageCertificates -> ro_marriage_certificate
+2021-12-17 13:12:36 DEBUG [main]: Retrieving property register.domain.MarriageCertificate.husband
+2021-12-17 13:12:36 DEBUG [main]: Mapped collection key: husband_id, one-to-many: register.domain.MarriageCertificate
+2021-12-17 13:12:36 DEBUG [main]: Processing association property references
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonMale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonMale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]: Processing association property references
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonMale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonMale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Resolving reference to class: register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]: Building session factory
+2021-12-17 13:12:36 DEBUG [main]: SessionFactory name : null
+2021-12-17 13:12:36 DEBUG [main]: Automatic flush during beforeCompletion(): enabled
+2021-12-17 13:12:36 DEBUG [main]: Automatic session close at end of transaction: disabled
+2021-12-17 13:12:36 DEBUG [main]: Statistics: disabled
+2021-12-17 13:12:36 DEBUG [main]: Deleted entity synthetic identifier rollback: disabled
+2021-12-17 13:12:36 DEBUG [main]: Default entity-mode: pojo
+2021-12-17 13:12:36 DEBUG [main]: Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2021-12-17 13:12:36 DEBUG [main]: Allow initialization of lazy state outside session : disabled
+2021-12-17 13:12:36 DEBUG [main]: Using BatchFetchStyle : LEGACY
+2021-12-17 13:12:36 DEBUG [main]: Default batch fetch size: -1
+2021-12-17 13:12:36 DEBUG [main]: Maximum outer join fetch depth: null
+2021-12-17 13:12:36 DEBUG [main]: Default null ordering: NONE
+2021-12-17 13:12:36 DEBUG [main]: Order SQL updates by primary key: disabled
+2021-12-17 13:12:36 DEBUG [main]: Order SQL inserts for batching: disabled
+2021-12-17 13:12:36 DEBUG [main]: multi-tenancy strategy : NONE
+2021-12-17 13:12:36 DEBUG [main]: JTA Track by Thread: enabled
+2021-12-17 13:12:36 DEBUG [main]: Query language substitutions: {}
+2021-12-17 13:12:36 DEBUG [main]: Named query checking : enabled
+2021-12-17 13:12:36 DEBUG [main]: Second-level cache: disabled
+2021-12-17 13:12:36 DEBUG [main]: Second-level query cache: disabled
+2021-12-17 13:12:36 DEBUG [main]: Second-level query cache factory: null
+2021-12-17 13:12:36 DEBUG [main]: Second-level cache region prefix: null
+2021-12-17 13:12:36 DEBUG [main]: Optimize second-level cache for minimal puts: disabled
+2021-12-17 13:12:36 DEBUG [main]: Structured second-level cache entries: disabled
+2021-12-17 13:12:36 DEBUG [main]: Second-level cache direct-reference entries: disabled
+2021-12-17 13:12:36 DEBUG [main]: Automatic eviction of collection cache: disabled
+2021-12-17 13:12:36 DEBUG [main]: JDBC batch size: 15
+2021-12-17 13:12:36 DEBUG [main]: JDBC batch updates for versioned data: enabled
+2021-12-17 13:12:36 DEBUG [main]: Scrollable result sets: enabled
+2021-12-17 13:12:36 DEBUG [main]: Wrap result sets: disabled
+2021-12-17 13:12:36 DEBUG [main]: JDBC3 getGeneratedKeys(): enabled
+2021-12-17 13:12:36 DEBUG [main]: JDBC result set fetch size: null
+2021-12-17 13:12:36 DEBUG [main]: Connection release mode: AFTER_TRANSACTION
+2021-12-17 13:12:36 DEBUG [main]: Generate SQL with comments: disabled
+2021-12-17 13:12:36 DEBUG [main]: JPA compliance - query : disabled
+2021-12-17 13:12:36 DEBUG [main]: JPA compliance - closed-handling : disabled
+2021-12-17 13:12:36 DEBUG [main]: JPA compliance - lists : disabled
+2021-12-17 13:12:36 DEBUG [main]: JPA compliance - transactions : disabled
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.PersonFemale] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.PersonMale] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.PersonMale
+2021-12-17 13:12:36 DEBUG [main]: EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-12-17 13:12:36 DEBUG [main]: EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-12-17 13:12:36 DEBUG [main]: Session factory constructed with filter configurations : {}
+2021-12-17 13:12:36 DEBUG [main]: Instantiating session factory with properties: {hibernate.format_sql=false, java.specification.version=17, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=/Users/asatutterin/Desktop/studproj/ext-systems/register-office/target/test-classes:/Users/asatutterin/Desktop/studproj/ext-systems/register-office/target/classes:/Users/asatutterin/.p2/pool/plugins/org.junit.jupiter.api_5.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.jupiter.migrationsupport_5.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.jupiter.params_5.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.platform.commons_1.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.platform.engine_1.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.platform.launcher_1.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.platform.runner_1.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.platform.suite.api_1.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.platform.suite.engine_1.8.1.v20211028-1957.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.platform.suite.commons_1.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit.vintage.engine_5.8.1.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.opentest4j_1.2.0.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.apiguardian_1.1.2.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.junit_4.13.2.v20211018-1956.jar:/Users/asatutterin/.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar:/Users/asatutterin/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar:/Users/asatutterin/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/asatutterin/.m2/repository/org/hibernate/hibernate-core/5.6.1.Final/hibernate-core-5.6.1.Final.jar:/Users/asatutterin/.m2/repository/org/jboss/logging/jboss-logging/3.4.2.Final/jboss-logging-3.4.2.Final.jar:/Users/asatutterin/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/Users/asatutterin/.m2/repository/net/bytebuddy/byte-buddy/1.11.20/byte-buddy-1.11.20.jar:/Users/asatutterin/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/asatutterin/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/Users/asatutterin/.m2/repository/org/jboss/jandex/2.2.3.Final/jandex-2.2.3.Final.jar:/Users/asatutterin/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/asatutterin/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/asatutterin/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/Users/asatutterin/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/asatutterin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/Users/asatutterin/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/Users/asatutterin/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/Users/asatutterin/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/Users/asatutterin/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/Users/asatutterin/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/Users/asatutterin/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar:/Users/asatutterin/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/asatutterin/eclipse/java-2021-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/211/0/.cp:/Users/asatutterin/eclipse/java-2021-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/209/0/.cp, java.vm.vendor=Eclipse Adoptium, sun.arch.data.model=64, java.vendor.url=https://adoptium.net/, user.timezone=Europe/Moscow, javax.persistence.jdbc.url=jdbc:postgresql://localhost:5432/register_office, javax.persistence.jdbc.user=****, java.vm.specification.version=17, os.name=Mac OS X, jakarta.persistence.jdbc.password=****, sun.java.launcher=SUN_STANDARD, user.country=RU, local.setting.IS_JTA_TXN_COORD=false, sun.boot.library.path=/Users/asatutterin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre/lib, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 56411 -testLoaderClass org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader -loaderpluginname org.eclipse.jdt.junit5.runtime -classNames register.dao.PersonDaoTest, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, jdk.debug=release, jakarta.persistence.jdbc.driver=org.postgresql.Driver, sun.cpu.endian=little, user.home=/Users/asatutterin, user.language=ru, java.specification.vendor=Oracle Corporation, java.version.date=2021-10-19, java.home=/Users/asatutterin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre, file.separator=/, java.vm.compressedOopsMode=Zero based, jakarta.persistence.jdbc.user=****, line.separator=
+, hibernate.persistenceUnitName=persistence, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, javax.persistence.jdbc.driver=org.postgresql.Driver, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=17.0.1+12, user.name=asatutterin, path.separator=:, hibernate.connection.username=****, os.version=10.16, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5432/register_office, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=persistence, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=false, java.vendor.version=Temurin-17.0.1+12, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues, java.io.tmpdir=/var/folders/3q/52vqmm754wd6_fl2ntkf713r0000gn/T/, java.version=17.0.1, user.dir=/Users/asatutterin/Desktop/studproj/ext-systems/register-office, os.arch=x86_64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, jakarta.persistence.jdbc.url=jdbc:postgresql://localhost:5432/register_office, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@5b22d8a1, native.encoding=UTF-8, java.library.path=/Users/asatutterin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=Eclipse Adoptium, java.vm.info=mixed mode, java.vm.version=17.0.1+12, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeBig, javax.persistence.jdbc.password=****, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.class.version=61.0}
+2021-12-17 13:12:36 DEBUG [main]: Skipping JACC integration as it was not enabled
+2021-12-17 13:12:36 DEBUG [main]: Instantiated session factory
+2021-12-17 13:12:36 DEBUG [main]: Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@74ad8d05] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@a62c7cd]
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.Person] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.PersonFemale] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.PersonFemale
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.PersonMale] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.PersonMale
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.Passport] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.Passport
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.BirthCertificate] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.BirthCertificate
+2021-12-17 13:12:36 DEBUG [main]: Not known whether passed class name [register.domain.MarriageCertificate] is safe
+2021-12-17 13:12:36 DEBUG [main]: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : register.domain.MarriageCertificate
+2021-12-17 13:12:36 DEBUG [main]: Static SQL for collection: register.domain.Person.passports
+2021-12-17 13:12:36 DEBUG [main]:  Row insert: update ro_passport set person_id=? where passport_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row update: update ro_passport set  where passport_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row delete: update ro_passport set person_id=null where person_id=? and passport_id=?
+2021-12-17 13:12:36 DEBUG [main]:  One-shot delete: update ro_passport set person_id=null where person_id=?
+2021-12-17 13:12:36 DEBUG [main]: Static SQL for collection: register.domain.PersonMale.birthCertificates
+2021-12-17 13:12:36 DEBUG [main]:  Row insert: update ro_birth_certificate set father_id=? where birth_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row update: update ro_birth_certificate set  where birth_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row delete: update ro_birth_certificate set father_id=null where father_id=? and birth_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  One-shot delete: update ro_birth_certificate set father_id=null where father_id=?
+2021-12-17 13:12:36 DEBUG [main]: Static SQL for collection: register.domain.PersonFemale.birthCertificates
+2021-12-17 13:12:36 DEBUG [main]:  Row insert: update ro_birth_certificate set mother_id=? where birth_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row update: update ro_birth_certificate set  where birth_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row delete: update ro_birth_certificate set mother_id=null where mother_id=? and birth_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  One-shot delete: update ro_birth_certificate set mother_id=null where mother_id=?
+2021-12-17 13:12:36 DEBUG [main]: Static SQL for collection: register.domain.PersonMale.marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]:  Row insert: update ro_marriage_certificate set husband_id=? where marriage_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row update: update ro_marriage_certificate set  where marriage_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row delete: update ro_marriage_certificate set husband_id=null where husband_id=? and marriage_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  One-shot delete: update ro_marriage_certificate set husband_id=null where husband_id=?
+2021-12-17 13:12:36 DEBUG [main]: Static SQL for collection: register.domain.PersonFemale.marriageCertificates
+2021-12-17 13:12:36 DEBUG [main]:  Row insert: update ro_marriage_certificate set wife_id=? where marriage_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row update: update ro_marriage_certificate set  where marriage_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Row delete: update ro_marriage_certificate set wife_id=null where wife_id=? and marriage_certificate_id=?
+2021-12-17 13:12:36 DEBUG [main]:  One-shot delete: update ro_marriage_certificate set wife_id=null where wife_id=?
+2021-12-17 13:12:36 DEBUG [main]: Static SQL for entity: register.domain.Person
+2021-12-17 13:12:36 DEBUG [main]:  Version select: select person_id from ro_person where person_id =?
+2021-12-17 13:12:36 DEBUG [main]:  Snapshot select: select person_.person_id, person_.date_of_birth as date_of_3_3_, person_.first_name as first_na4_3_, person_.last_name as last_nam5_3_, person_.patronymic as patronym6_3_ from ro_person person_ where person_.person_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Insert 0: insert into ro_person (date_of_birth, first_name, last_name, patronymic, sex, person_id) values (?, ?, ?, ?, -1907849355, ?)
+2021-12-17 13:12:36 DEBUG [main]:  Update 0: update ro_person set date_of_birth=?, first_name=?, last_name=?, patronymic=? where person_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Delete 0: delete from ro_person where person_id=?
+2021-12-17 13:12:36 DEBUG [main]:  Identity insert: insert into ro_person (date_of_birth, first_name, last_name, patronymic, sex) values (?, ?, ?, ?, -1907849355)
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68b366e2]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : dateOfBirth
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : firstName
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : lasName
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : passports
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@f438904]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b83459e]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : patronymic
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : birthCertificate
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2eda072]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : birthCertificates
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : marriageCertificates
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(entity=register.domain.Person)
+    - Returns
+       - EntityReturnImpl(entity=register.domain.Person, querySpaceUid=<gen:0>, path=register.domain.Person)
+          - CollectionAttributeFetchImpl(collection=register.domain.Person.passports, querySpaceUid=<gen:1>, path=register.domain.Person.passports)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.Passport, querySpaceUid=<gen:2>, path=register.domain.Person.passports.<elements>)
+          - EntityAttributeFetchImpl(entity=register.domain.BirthCertificate, querySpaceUid=<gen:3>, path=register.domain.Person.birthCertificate)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=register.domain.Person)
+          - SQL table alias mapping - person0_
+          - alias suffix - 0_
+          - suffixed key columns - {person_i2_3_0_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for entity register.domain.Person [NONE]: select person0_.person_id as person_i2_3_0_, person0_.date_of_birth as date_of_3_3_0_, person0_.first_name as first_na4_3_0_, person0_.last_name as last_nam5_3_0_, person0_.patronymic as patronym6_3_0_, person0_.sex as sex1_3_0_ from ro_person person0_ where person0_.person_id=?
+2021-12-17 13:12:37 DEBUG [main]: Static SQL for entity: register.domain.Passport
+2021-12-17 13:12:37 DEBUG [main]:  Version select: select passport_id from ro_passport where passport_id =?
+2021-12-17 13:12:37 DEBUG [main]:  Snapshot select: select passport_.passport_id, passport_.issue_date as issue_da2_2_, passport_.issue_department as issue_de3_2_, passport_.number as number4_2_, passport_.person_id as person_i6_2_, passport_.seria as seria5_2_ from ro_passport passport_ where passport_.passport_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Insert 0: insert into ro_passport (issue_date, issue_department, number, person_id, seria, passport_id) values (?, ?, ?, ?, ?, ?)
+2021-12-17 13:12:37 DEBUG [main]:  Update 0: update ro_passport set issue_date=?, issue_department=?, number=?, person_id=?, seria=? where passport_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Delete 0: delete from ro_passport where passport_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Identity insert: insert into ro_passport (issue_date, issue_department, number, person_id, seria) values (?, ?, ?, ?, ?)
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62cba181]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDepartment
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : person
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@661fe025]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : seria
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(entity=register.domain.Passport)
+    - Returns
+       - EntityReturnImpl(entity=register.domain.Passport, querySpaceUid=<gen:0>, path=register.domain.Passport)
+          - EntityAttributeFetchImpl(entity=register.domain.Person, querySpaceUid=<gen:1>, path=register.domain.Passport.person)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=register.domain.Passport)
+          - SQL table alias mapping - passport0_
+          - alias suffix - 0_
+          - suffixed key columns - {passport1_2_0_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for entity register.domain.Passport [NONE]: select passport0_.passport_id as passport1_2_0_, passport0_.issue_date as issue_da2_2_0_, passport0_.issue_department as issue_de3_2_0_, passport0_.number as number4_2_0_, passport0_.person_id as person_i6_2_0_, passport0_.seria as seria5_2_0_ from ro_passport passport0_ where passport0_.passport_id=?
+2021-12-17 13:12:37 DEBUG [main]: Static SQL for entity: register.domain.PersonFemale
+2021-12-17 13:12:37 DEBUG [main]:  Version select: select person_id from ro_person where person_id =?
+2021-12-17 13:12:37 DEBUG [main]:  Snapshot select: select personfema_.person_id, personfema_.date_of_birth as date_of_3_3_, personfema_.first_name as first_na4_3_, personfema_.last_name as last_nam5_3_, personfema_.patronymic as patronym6_3_ from ro_person personfema_ where personfema_.person_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Insert 0: insert into ro_person (date_of_birth, first_name, last_name, patronymic, sex, person_id) values (?, ?, ?, ?, 1, ?)
+2021-12-17 13:12:37 DEBUG [main]:  Update 0: update ro_person set date_of_birth=?, first_name=?, last_name=?, patronymic=? where person_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Delete 0: delete from ro_person where person_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Identity insert: insert into ro_person (date_of_birth, first_name, last_name, patronymic, sex) values (?, ?, ?, ?, 1)
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7161457]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : dateOfBirth
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : firstName
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : lasName
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : passports
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@629984eb]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7b1e5e55]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : patronymic
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : birthCertificate
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c1d59cd]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : birthCertificates
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@76cf841]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@297c9a9b]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : marriageCertificates
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@20999517]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ec63f8]
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(entity=register.domain.PersonFemale)
+    - Returns
+       - EntityReturnImpl(entity=register.domain.PersonFemale, querySpaceUid=<gen:0>, path=register.domain.PersonFemale)
+          - CollectionAttributeFetchImpl(collection=register.domain.Person.passports, querySpaceUid=<gen:1>, path=register.domain.PersonFemale.passports)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.Passport, querySpaceUid=<gen:2>, path=register.domain.PersonFemale.passports.<elements>)
+          - EntityAttributeFetchImpl(entity=register.domain.BirthCertificate, querySpaceUid=<gen:3>, path=register.domain.PersonFemale.birthCertificate)
+          - CollectionAttributeFetchImpl(collection=register.domain.PersonFemale.birthCertificates, querySpaceUid=<gen:4>, path=register.domain.PersonFemale.birthCertificates)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.BirthCertificate, querySpaceUid=<gen:5>, path=register.domain.PersonFemale.birthCertificates.<elements>)
+          - CollectionAttributeFetchImpl(collection=register.domain.PersonFemale.marriageCertificates, querySpaceUid=<gen:6>, path=register.domain.PersonFemale.marriageCertificates)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.MarriageCertificate, querySpaceUid=<gen:7>, path=register.domain.PersonFemale.marriageCertificates.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=register.domain.PersonFemale)
+          - SQL table alias mapping - personfema0_
+          - alias suffix - 0_
+          - suffixed key columns - {person_i2_3_0_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for entity register.domain.PersonFemale [NONE]: select personfema0_.person_id as person_i2_3_0_, personfema0_.date_of_birth as date_of_3_3_0_, personfema0_.first_name as first_na4_3_0_, personfema0_.last_name as last_nam5_3_0_, personfema0_.patronymic as patronym6_3_0_ from ro_person personfema0_ where personfema0_.person_id=? and personfema0_.sex=1
+2021-12-17 13:12:37 DEBUG [main]: Static SQL for entity: register.domain.BirthCertificate
+2021-12-17 13:12:37 DEBUG [main]:  Version select: select birth_certificate_id from ro_birth_certificate where birth_certificate_id =?
+2021-12-17 13:12:37 DEBUG [main]:  Snapshot select: select birthcerti_.birth_certificate_id, birthcerti_.father_id as father_i4_0_, birthcerti_.issue_date as issue_da2_0_, birthcerti_.mother_id as mother_i5_0_, birthcerti_.number_certificate as number_c3_0_, birthcerti_.person_id as person_i6_0_ from ro_birth_certificate birthcerti_ where birthcerti_.birth_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Insert 0: insert into ro_birth_certificate (father_id, issue_date, mother_id, number_certificate, person_id, birth_certificate_id) values (?, ?, ?, ?, ?, ?)
+2021-12-17 13:12:37 DEBUG [main]:  Update 0: update ro_birth_certificate set father_id=?, issue_date=?, mother_id=?, number_certificate=?, person_id=? where birth_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Delete 0: delete from ro_birth_certificate where birth_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Identity insert: insert into ro_birth_certificate (father_id, issue_date, mother_id, number_certificate, person_id) values (?, ?, ?, ?, ?)
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66223d94]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : father
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@479ac2cb]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : mother
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@220c9a63]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : person
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@55b5cd2b]
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(entity=register.domain.BirthCertificate)
+    - Returns
+       - EntityReturnImpl(entity=register.domain.BirthCertificate, querySpaceUid=<gen:0>, path=register.domain.BirthCertificate)
+          - EntityAttributeFetchImpl(entity=register.domain.PersonMale, querySpaceUid=<gen:1>, path=register.domain.BirthCertificate.father)
+          - EntityAttributeFetchImpl(entity=register.domain.PersonFemale, querySpaceUid=<gen:2>, path=register.domain.BirthCertificate.mother)
+          - EntityAttributeFetchImpl(entity=register.domain.Person, querySpaceUid=<gen:3>, path=register.domain.BirthCertificate.person)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=register.domain.BirthCertificate)
+          - SQL table alias mapping - birthcerti0_
+          - alias suffix - 0_
+          - suffixed key columns - {birth_ce1_0_0_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for entity register.domain.BirthCertificate [NONE]: select birthcerti0_.birth_certificate_id as birth_ce1_0_0_, birthcerti0_.father_id as father_i4_0_0_, birthcerti0_.issue_date as issue_da2_0_0_, birthcerti0_.mother_id as mother_i5_0_0_, birthcerti0_.number_certificate as number_c3_0_0_, birthcerti0_.person_id as person_i6_0_0_ from ro_birth_certificate birthcerti0_ where birthcerti0_.birth_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]: Static select for entity register.domain.BirthCertificate [NONE]: select birthcerti0_.birth_certificate_id as birth_ce1_0_0_, birthcerti0_.father_id as father_i4_0_0_, birthcerti0_.issue_date as issue_da2_0_0_, birthcerti0_.mother_id as mother_i5_0_0_, birthcerti0_.number_certificate as number_c3_0_0_, birthcerti0_.person_id as person_i6_0_0_ from ro_birth_certificate birthcerti0_ where birthcerti0_.person_id=?
+2021-12-17 13:12:37 DEBUG [main]: Static SQL for entity: register.domain.PersonMale
+2021-12-17 13:12:37 DEBUG [main]:  Version select: select person_id from ro_person where person_id =?
+2021-12-17 13:12:37 DEBUG [main]:  Snapshot select: select personmale_.person_id, personmale_.date_of_birth as date_of_3_3_, personmale_.first_name as first_na4_3_, personmale_.last_name as last_nam5_3_, personmale_.patronymic as patronym6_3_ from ro_person personmale_ where personmale_.person_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Insert 0: insert into ro_person (date_of_birth, first_name, last_name, patronymic, sex, person_id) values (?, ?, ?, ?, 2, ?)
+2021-12-17 13:12:37 DEBUG [main]:  Update 0: update ro_person set date_of_birth=?, first_name=?, last_name=?, patronymic=? where person_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Delete 0: delete from ro_person where person_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Identity insert: insert into ro_person (date_of_birth, first_name, last_name, patronymic, sex) values (?, ?, ?, ?, 2)
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5995851e]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : dateOfBirth
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : firstName
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : lasName
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : passports
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@51bddd98]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@21c747a]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : patronymic
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : birthCertificate
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77d4ac52]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : birthCertificates
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@29f38091]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@161dd92a]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : marriageCertificates
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@77c3c037]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@252744a1]
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(entity=register.domain.PersonMale)
+    - Returns
+       - EntityReturnImpl(entity=register.domain.PersonMale, querySpaceUid=<gen:0>, path=register.domain.PersonMale)
+          - CollectionAttributeFetchImpl(collection=register.domain.Person.passports, querySpaceUid=<gen:1>, path=register.domain.PersonMale.passports)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.Passport, querySpaceUid=<gen:2>, path=register.domain.PersonMale.passports.<elements>)
+          - EntityAttributeFetchImpl(entity=register.domain.BirthCertificate, querySpaceUid=<gen:3>, path=register.domain.PersonMale.birthCertificate)
+          - CollectionAttributeFetchImpl(collection=register.domain.PersonMale.birthCertificates, querySpaceUid=<gen:4>, path=register.domain.PersonMale.birthCertificates)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.BirthCertificate, querySpaceUid=<gen:5>, path=register.domain.PersonMale.birthCertificates.<elements>)
+          - CollectionAttributeFetchImpl(collection=register.domain.PersonMale.marriageCertificates, querySpaceUid=<gen:6>, path=register.domain.PersonMale.marriageCertificates)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.MarriageCertificate, querySpaceUid=<gen:7>, path=register.domain.PersonMale.marriageCertificates.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=register.domain.PersonMale)
+          - SQL table alias mapping - personmale0_
+          - alias suffix - 0_
+          - suffixed key columns - {person_i2_3_0_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for entity register.domain.PersonMale [NONE]: select personmale0_.person_id as person_i2_3_0_, personmale0_.date_of_birth as date_of_3_3_0_, personmale0_.first_name as first_na4_3_0_, personmale0_.last_name as last_nam5_3_0_, personmale0_.patronymic as patronym6_3_0_ from ro_person personmale0_ where personmale0_.person_id=? and personmale0_.sex=2
+2021-12-17 13:12:37 DEBUG [main]: Static SQL for entity: register.domain.MarriageCertificate
+2021-12-17 13:12:37 DEBUG [main]:  Version select: select marriage_certificate_id from ro_marriage_certificate where marriage_certificate_id =?
+2021-12-17 13:12:37 DEBUG [main]:  Snapshot select: select marriagece_.marriage_certificate_id, marriagece_.active as active2_1_, marriagece_.end_date as end_date3_1_, marriagece_.husband_id as husband_6_1_, marriagece_.issue_date as issue_da4_1_, marriagece_.number_certificate as number_c5_1_, marriagece_.wife_id as wife_id7_1_ from ro_marriage_certificate marriagece_ where marriagece_.marriage_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Insert 0: insert into ro_marriage_certificate (active, end_date, husband_id, issue_date, number_certificate, wife_id, marriage_certificate_id) values (?, ?, ?, ?, ?, ?, ?)
+2021-12-17 13:12:37 DEBUG [main]:  Update 0: update ro_marriage_certificate set active=?, end_date=?, husband_id=?, issue_date=?, number_certificate=?, wife_id=? where marriage_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Delete 0: delete from ro_marriage_certificate where marriage_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]:  Identity insert: insert into ro_marriage_certificate (active, end_date, husband_id, issue_date, number_certificate, wife_id) values (?, ?, ?, ?, ?, ?)
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10e5bf9c]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : active
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : endDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : husband
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1624775]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : wife
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e7f19b4]
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(entity=register.domain.MarriageCertificate)
+    - Returns
+       - EntityReturnImpl(entity=register.domain.MarriageCertificate, querySpaceUid=<gen:0>, path=register.domain.MarriageCertificate)
+          - EntityAttributeFetchImpl(entity=register.domain.PersonMale, querySpaceUid=<gen:1>, path=register.domain.MarriageCertificate.husband)
+          - EntityAttributeFetchImpl(entity=register.domain.PersonFemale, querySpaceUid=<gen:2>, path=register.domain.MarriageCertificate.wife)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=register.domain.MarriageCertificate)
+          - SQL table alias mapping - marriagece0_
+          - alias suffix - 0_
+          - suffixed key columns - {marriage1_1_0_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for entity register.domain.MarriageCertificate [NONE]: select marriagece0_.marriage_certificate_id as marriage1_1_0_, marriagece0_.active as active2_1_0_, marriagece0_.end_date as end_date3_1_0_, marriagece0_.husband_id as husband_6_1_0_, marriagece0_.issue_date as issue_da4_1_0_, marriagece0_.number_certificate as number_c5_1_0_, marriagece0_.wife_id as wife_id7_1_0_ from ro_marriage_certificate marriagece0_ where marriagece0_.marriage_certificate_id=?
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2f80cb79]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4816ee24]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDepartment
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : person
+2021-12-17 13:12:37 DEBUG [main]: Property path deemed to be circular : person
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : seria
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(collection=register.domain.Person.passports)
+    - Returns
+       - CollectionReturnImpl(collection=register.domain.Person.passports, querySpaceUid=<gen:0>, path=[register.domain.Person.passports])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.Passport, querySpaceUid=<gen:1>, path=[register.domain.Person.passports].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=register.domain.Person.passports)
+          - SQL table alias mapping - passports0_
+          - alias suffix - 0_
+          - suffixed key columns - {person_i6_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - passport1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=register.domain.Passport)
+                - SQL table alias mapping - passports0_
+                - alias suffix - 1_
+                - suffixed key columns - {passport1_2_1_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for collection register.domain.Person.passports: select passports0_.person_id as person_i6_2_0_, passports0_.passport_id as passport1_2_0_, passports0_.passport_id as passport1_2_1_, passports0_.issue_date as issue_da2_2_1_, passports0_.issue_department as issue_de3_2_1_, passports0_.number as number4_2_1_, passports0_.person_id as person_i6_2_1_, passports0_.seria as seria5_2_1_ from ro_passport passports0_ where passports0_.person_id=?
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3a401749]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7793ad58]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : father
+2021-12-17 13:12:37 DEBUG [main]: Property path deemed to be circular : father
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : mother
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2cd388f5]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : person
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4640195a]
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(collection=register.domain.PersonMale.birthCertificates)
+    - Returns
+       - CollectionReturnImpl(collection=register.domain.PersonMale.birthCertificates, querySpaceUid=<gen:0>, path=[register.domain.PersonMale.birthCertificates])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.BirthCertificate, querySpaceUid=<gen:1>, path=[register.domain.PersonMale.birthCertificates].<elements>)
+             - EntityAttributeFetchImpl(entity=register.domain.PersonFemale, querySpaceUid=<gen:2>, path=[register.domain.PersonMale.birthCertificates].<elements>.mother)
+             - EntityAttributeFetchImpl(entity=register.domain.Person, querySpaceUid=<gen:3>, path=[register.domain.PersonMale.birthCertificates].<elements>.person)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=register.domain.PersonMale.birthCertificates)
+          - SQL table alias mapping - birthcerti0_
+          - alias suffix - 0_
+          - suffixed key columns - {father_i4_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - birth_ce1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=register.domain.BirthCertificate)
+                - SQL table alias mapping - birthcerti0_
+                - alias suffix - 1_
+                - suffixed key columns - {birth_ce1_0_1_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for collection register.domain.PersonMale.birthCertificates: select birthcerti0_.father_id as father_i4_0_0_, birthcerti0_.birth_certificate_id as birth_ce1_0_0_, birthcerti0_.birth_certificate_id as birth_ce1_0_1_, birthcerti0_.father_id as father_i4_0_1_, birthcerti0_.issue_date as issue_da2_0_1_, birthcerti0_.mother_id as mother_i5_0_1_, birthcerti0_.number_certificate as number_c3_0_1_, birthcerti0_.person_id as person_i6_0_1_ from ro_birth_certificate birthcerti0_ where birthcerti0_.father_id=?
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@70d77826]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7f323b3a]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : father
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4207852d]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : mother
+2021-12-17 13:12:37 DEBUG [main]: Property path deemed to be circular : mother
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : person
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c829dbc]
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(collection=register.domain.PersonFemale.birthCertificates)
+    - Returns
+       - CollectionReturnImpl(collection=register.domain.PersonFemale.birthCertificates, querySpaceUid=<gen:0>, path=[register.domain.PersonFemale.birthCertificates])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.BirthCertificate, querySpaceUid=<gen:1>, path=[register.domain.PersonFemale.birthCertificates].<elements>)
+             - EntityAttributeFetchImpl(entity=register.domain.PersonMale, querySpaceUid=<gen:2>, path=[register.domain.PersonFemale.birthCertificates].<elements>.father)
+             - EntityAttributeFetchImpl(entity=register.domain.Person, querySpaceUid=<gen:3>, path=[register.domain.PersonFemale.birthCertificates].<elements>.person)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=register.domain.PersonFemale.birthCertificates)
+          - SQL table alias mapping - birthcerti0_
+          - alias suffix - 0_
+          - suffixed key columns - {mother_i5_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - birth_ce1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=register.domain.BirthCertificate)
+                - SQL table alias mapping - birthcerti0_
+                - alias suffix - 1_
+                - suffixed key columns - {birth_ce1_0_1_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for collection register.domain.PersonFemale.birthCertificates: select birthcerti0_.mother_id as mother_i5_0_0_, birthcerti0_.birth_certificate_id as birth_ce1_0_0_, birthcerti0_.birth_certificate_id as birth_ce1_0_1_, birthcerti0_.father_id as father_i4_0_1_, birthcerti0_.issue_date as issue_da2_0_1_, birthcerti0_.mother_id as mother_i5_0_1_, birthcerti0_.number_certificate as number_c3_0_1_, birthcerti0_.person_id as person_i6_0_1_ from ro_birth_certificate birthcerti0_ where birthcerti0_.mother_id=?
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@57efc6fd]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@839df62]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : active
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : endDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : husband
+2021-12-17 13:12:37 DEBUG [main]: Property path deemed to be circular : husband
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : wife
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67cffead]
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(collection=register.domain.PersonMale.marriageCertificates)
+    - Returns
+       - CollectionReturnImpl(collection=register.domain.PersonMale.marriageCertificates, querySpaceUid=<gen:0>, path=[register.domain.PersonMale.marriageCertificates])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.MarriageCertificate, querySpaceUid=<gen:1>, path=[register.domain.PersonMale.marriageCertificates].<elements>)
+             - EntityAttributeFetchImpl(entity=register.domain.PersonFemale, querySpaceUid=<gen:2>, path=[register.domain.PersonMale.marriageCertificates].<elements>.wife)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=register.domain.PersonMale.marriageCertificates)
+          - SQL table alias mapping - marriagece0_
+          - alias suffix - 0_
+          - suffixed key columns - {husband_6_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - marriage1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=register.domain.MarriageCertificate)
+                - SQL table alias mapping - marriagece0_
+                - alias suffix - 1_
+                - suffixed key columns - {marriage1_1_1_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for collection register.domain.PersonMale.marriageCertificates: select marriagece0_.husband_id as husband_6_1_0_, marriagece0_.marriage_certificate_id as marriage1_1_0_, marriagece0_.marriage_certificate_id as marriage1_1_1_, marriagece0_.active as active2_1_1_, marriagece0_.end_date as end_date3_1_1_, marriagece0_.husband_id as husband_6_1_1_, marriagece0_.issue_date as issue_da4_1_1_, marriagece0_.number_certificate as number_c5_1_1_, marriagece0_.wife_id as wife_id7_1_1_ from ro_marriage_certificate marriagece0_ where marriagece0_.husband_id=?
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@214beff9]
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1ff15a50]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : active
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : endDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : husband
+2021-12-17 13:12:37 DEBUG [main]: Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47148f3f]
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : issueDate
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : number
+2021-12-17 13:12:37 DEBUG [main]: Visiting attribute path : wife
+2021-12-17 13:12:37 DEBUG [main]: Property path deemed to be circular : wife
+2021-12-17 13:12:37 DEBUG [main]: Building LoadPlan...
+2021-12-17 13:12:37 DEBUG [main]: processing queryspace <gen:0>
+2021-12-17 13:12:37 DEBUG [main]: LoadPlan(collection=register.domain.PersonFemale.marriageCertificates)
+    - Returns
+       - CollectionReturnImpl(collection=register.domain.PersonFemale.marriageCertificates, querySpaceUid=<gen:0>, path=[register.domain.PersonFemale.marriageCertificates])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=register.domain.MarriageCertificate, querySpaceUid=<gen:1>, path=[register.domain.PersonFemale.marriageCertificates].<elements>)
+             - EntityAttributeFetchImpl(entity=register.domain.PersonMale, querySpaceUid=<gen:2>, path=[register.domain.PersonFemale.marriageCertificates].<elements>.husband)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=register.domain.PersonFemale.marriageCertificates)
+          - SQL table alias mapping - marriagece0_
+          - alias suffix - 0_
+          - suffixed key columns - {wife_id7_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - marriage1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=register.domain.MarriageCertificate)
+                - SQL table alias mapping - marriagece0_
+                - alias suffix - 1_
+                - suffixed key columns - {marriage1_1_1_}
+
+2021-12-17 13:12:37 DEBUG [main]: Static select for collection register.domain.PersonFemale.marriageCertificates: select marriagece0_.wife_id as wife_id7_1_0_, marriagece0_.marriage_certificate_id as marriage1_1_0_, marriagece0_.marriage_certificate_id as marriage1_1_1_, marriagece0_.active as active2_1_1_, marriagece0_.end_date as end_date3_1_1_, marriagece0_.husband_id as husband_6_1_1_, marriagece0_.issue_date as issue_da4_1_1_, marriagece0_.number_certificate as number_c5_1_1_, marriagece0_.wife_id as wife_id7_1_1_ from ro_marriage_certificate marriagece0_ where marriagece0_.wife_id=?
+2021-12-17 13:12:37 DEBUG [main]: No actions specified; doing nothing
+2021-12-17 13:12:37 DEBUG [main]: No JtaPlatform was specified, checking resolver
+2021-12-17 13:12:37 DEBUG [main]: No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2021-12-17 13:12:37 DEBUG [main]: Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-17 13:12:37 INFO  [main]: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-17 13:12:37 DEBUG [main]: Checking 1 named HQL queries
+2021-12-17 13:12:37 DEBUG [main]: Checking named query: Person.findPersons
+2021-12-17 13:12:37 DEBUG [main]: Statistics initialized [enabled=false]
+2021-12-17 13:12:37 DEBUG [main]: QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@79980d8d
+2021-12-17 13:12:37 DEBUG [main]: parse() - HQL: SELECT p FROM register.domain.Person p LEFT JOIN FETCH p.passports LEFT JOIN FETCH p.birthCertificate where p.personId =:pId
+2021-12-17 13:12:37 DEBUG [main]: throwQueryException() : no errors
+2021-12-17 13:12:37 DEBUG [main]: --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  +-[RANGE] Node: 'RANGE'
+    |  |  |  +-[DOT] Node: '.'
+    |  |  |  |  +-[DOT] Node: '.'
+    |  |  |  |  |  +-[IDENT] Node: 'register'
+    |  |  |  |  |  \-[IDENT] Node: 'domain'
+    |  |  |  |  \-[IDENT] Node: 'Person'
+    |  |  |  \-[ALIAS] Node: 'p'
+    |  |  +-[JOIN] Node: 'JOIN'
+    |  |  |  +-[LEFT] Node: 'LEFT'
+    |  |  |  +-[FETCH] Node: 'FETCH'
+    |  |  |  \-[DOT] Node: '.'
+    |  |  |     +-[IDENT] Node: 'p'
+    |  |  |     \-[IDENT] Node: 'passports'
+    |  |  \-[JOIN] Node: 'JOIN'
+    |  |     +-[LEFT] Node: 'LEFT'
+    |  |     +-[FETCH] Node: 'FETCH'
+    |  |     \-[DOT] Node: '.'
+    |  |        +-[IDENT] Node: 'p'
+    |  |        \-[IDENT] Node: 'birthCertificate'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'p'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'p'
+          |  \-[IDENT] Node: 'personId'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'pId'
+
+2021-12-17 13:12:37 DEBUG [main]: select << begin [level=1, statement=select]
+2021-12-17 13:12:37 DEBUG [main]: FromClause{level=1} : register.domain.Person (p) -> person0_
+2021-12-17 13:12:37 DEBUG [main]: Resolved : p -> person0_.person_id
+2021-12-17 13:12:37 DEBUG [main]: getDataType() : passports -> org.hibernate.type.BagType(register.domain.Person.passports)
+2021-12-17 13:12:37 DEBUG [main]: createEntityAssociation() : One to many - path = p.passports role = register.domain.Person.passports associatedEntityName = register.domain.Passport
+2021-12-17 13:12:37 DEBUG [main]: FromClause{level=1} : register.domain.Passport (<no alias>) -> passports1_
+2021-12-17 13:12:37 DEBUG [main]: addJoinByPathMap() : p.passports -> FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=ro_passport,tableAlias=passports1_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.Passport}}
+2021-12-17 13:12:37 DEBUG [main]: dereferenceCollection() : Created new FROM element for p.passports : ro_passport passports1_
+2021-12-17 13:12:37 DEBUG [main]: Resolved : p.passports -> .
+2021-12-17 13:12:37 DEBUG [main]: createFromJoinElement() : -- join tree --
+ \-[JOIN_FRAGMENT] FromElement: 'ro_passport passports1_' FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=register.domain.Person.passports,tableName=ro_passport,tableAlias=passports1_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.Passport}}
+
+2021-12-17 13:12:37 DEBUG [main]: Resolved : p -> person0_.person_id
+2021-12-17 13:12:37 DEBUG [main]: getDataType() : birthCertificate -> org.hibernate.type.OneToOneType(register.domain.BirthCertificate)
+2021-12-17 13:12:37 DEBUG [main]: dereferenceEntityJoin() : generating join for birthCertificate in register.domain.Person (<no alias>) parent = [ {null} ]
+2021-12-17 13:12:37 DEBUG [main]: FromClause{level=1} : register.domain.BirthCertificate (<no alias>) -> birthcerti2_
+2021-12-17 13:12:37 DEBUG [main]: addJoinByPathMap() : p.birthCertificate -> FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=ro_birth_certificate,tableAlias=birthcerti2_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.BirthCertificate}}
+2021-12-17 13:12:37 DEBUG [main]: Resolved : p.birthCertificate -> person0_.person_id
+2021-12-17 13:12:37 DEBUG [main]: createFromJoinElement() : -- join tree --
+ \-[JOIN_FRAGMENT] FromElement: 'ro_birth_certificate birthcerti2_' FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=register.domain.Person.birthCertificate,tableName=ro_birth_certificate,tableAlias=birthcerti2_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.BirthCertificate}}
+
+2021-12-17 13:12:37 DEBUG [main]: Resolved : p -> person0_.person_id
+2021-12-17 13:12:37 DEBUG [main]: Resolved : p -> person0_.person_id
+2021-12-17 13:12:37 DEBUG [main]: getDataType() : personId -> org.hibernate.type.LongType@54afd745
+2021-12-17 13:12:37 DEBUG [main]: Resolved : p.personId -> person0_.person_id
+2021-12-17 13:12:37 DEBUG [main]: select : finishing up [level=1, statement=select]
+2021-12-17 13:12:37 DEBUG [main]: processQuery() :  ( SELECT ( {select clause} person0_.person_id ) ( FromClause{level=1} ( ro_person person0_ ( ro_passport passports1_ ro_birth_certificate birthcerti2_ ) ) ) ( where ( = ( person0_.person_id person0_.person_id personId ) ? ) ) )
+2021-12-17 13:12:37 DEBUG [main]: Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Person): [ro_person]
+    | referencedTables(entity Passport): [ro_passport]
+    | referencedTables(entity BirthCertificate): [ro_birth_certificate]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(register.domain.Person)
+    |  | originalText: p
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(register.domain.Passport)
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(register.domain.BirthCertificate)
+    |  +-SqlFragment
+    |  +-SqlFragment
+    |  +-SqlFragment
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    |     \-FromElement
+    |        \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(register.domain.Person)
+          | path: p.personId
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(register.domain.Person)
+          |  | originalText: p
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: personId
+          \-ParameterNode
+
+2021-12-17 13:12:37 DEBUG [main]: Using FROM fragment [ro_person person0_]
+2021-12-17 13:12:37 DEBUG [main]: Using FROM fragment [left outer join ro_passport passports1_ on person0_.person_id=passports1_.person_id]
+2021-12-17 13:12:37 DEBUG [main]: Using FROM fragment [left outer join ro_birth_certificate birthcerti2_ on person0_.person_id=birthcerti2_.person_id]
+2021-12-17 13:12:37 DEBUG [main]: select >> end [level=1, statement=select]
+2021-12-17 13:12:37 DEBUG [main]: --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (ro_person,ro_passport,ro_birth_certificate)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'person0_.person_id as person_i2_3_0_' {alias=p, className=register.domain.Person, tableAlias=person0_}
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'passports1_.passport_id as passport1_2_1_' {FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=register.domain.Person.passports,tableName=ro_passport,tableAlias=passports1_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.Passport}}}
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'birthcerti2_.birth_certificate_id as birth_ce1_0_2_' {FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=register.domain.Person.birthCertificate,tableName=ro_birth_certificate,tableAlias=birthcerti2_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.BirthCertificate}}}
+    |  +-[SQL_TOKEN] SqlFragment: 'person0_.date_of_birth as date_of_3_3_0_, person0_.first_name as first_na4_3_0_, person0_.last_name as last_nam5_3_0_, person0_.patronymic as patronym6_3_0_, person0_.sex as sex1_3_0_'
+    |  +-[SQL_TOKEN] SqlFragment: 'passports1_.issue_date as issue_da2_2_1_, passports1_.issue_department as issue_de3_2_1_, passports1_.number as number4_2_1_, passports1_.person_id as person_i6_2_1_, passports1_.seria as seria5_2_1_'
+    |  +-[SQL_TOKEN] SqlFragment: 'passports1_.person_id as person_i6_2_0__, passports1_.passport_id as passport1_2_0__'
+    |  \-[SQL_TOKEN] SqlFragment: 'birthcerti2_.father_id as father_i4_0_2_, birthcerti2_.issue_date as issue_da2_0_2_, birthcerti2_.mother_id as mother_i5_0_2_, birthcerti2_.number_certificate as number_c3_0_2_, birthcerti2_.person_id as person_i6_0_2_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=3, fromElements=3, fromElementByClassAlias=[p], fromElementByTableAlias=[passports1_, birthcerti2_, person0_], fromElementsByPath=[p.birthCertificate, p.passports], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'ro_person person0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=p,role=null,tableName=ro_person,tableAlias=person0_,origin=null,columns={,className=register.domain.Person}}
+    |     \-[JOIN_FRAGMENT] FromElement: 'left outer join ro_passport passports1_ on person0_.person_id=passports1_.person_id' FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=register.domain.Person.passports,tableName=ro_passport,tableAlias=passports1_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.Passport}}
+    |        \-[JOIN_FRAGMENT] FromElement: 'left outer join ro_birth_certificate birthcerti2_ on person0_.person_id=birthcerti2_.person_id' FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=register.domain.Person.birthCertificate,tableName=ro_birth_certificate,tableAlias=birthcerti2_,origin=ro_person person0_,columns={person0_.person_id,className=register.domain.BirthCertificate}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'person0_.person_id' {propertyName=personId,dereferenceType=PRIMITIVE,getPropertyPath=personId,path=p.personId,tableAlias=person0_,className=register.domain.Person,classAlias=p}
+          |  +-[ALIAS_REF] IdentNode: 'person0_.person_id' {alias=p, className=register.domain.Person, tableAlias=person0_}
+          |  \-[IDENT] IdentNode: 'personId' {originalText=personId}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=pId, expectedType=org.hibernate.type.LongType@54afd745}
+
+2021-12-17 13:12:37 DEBUG [main]: throwQueryException() : no errors
+2021-12-17 13:12:37 DEBUG [main]: HQL: SELECT p FROM register.domain.Person p LEFT JOIN FETCH p.passports LEFT JOIN FETCH p.birthCertificate where p.personId =:pId
+2021-12-17 13:12:37 DEBUG [main]: SQL: select person0_.person_id as person_i2_3_0_, passports1_.passport_id as passport1_2_1_, birthcerti2_.birth_certificate_id as birth_ce1_0_2_, person0_.date_of_birth as date_of_3_3_0_, person0_.first_name as first_na4_3_0_, person0_.last_name as last_nam5_3_0_, person0_.patronymic as patronym6_3_0_, person0_.sex as sex1_3_0_, passports1_.issue_date as issue_da2_2_1_, passports1_.issue_department as issue_de3_2_1_, passports1_.number as number4_2_1_, passports1_.person_id as person_i6_2_1_, passports1_.seria as seria5_2_1_, passports1_.person_id as person_i6_2_0__, passports1_.passport_id as passport1_2_0__, birthcerti2_.father_id as father_i4_0_2_, birthcerti2_.issue_date as issue_da2_0_2_, birthcerti2_.mother_id as mother_i5_0_2_, birthcerti2_.number_certificate as number_c3_0_2_, birthcerti2_.person_id as person_i6_0_2_ from ro_person person0_ left outer join ro_passport passports1_ on person0_.person_id=passports1_.person_id left outer join ro_birth_certificate birthcerti2_ on person0_.person_id=birthcerti2_.person_id where person0_.person_id=?
+2021-12-17 13:12:37 DEBUG [main]: throwQueryException() : no errors
+2021-12-17 13:12:37 DEBUG [main]: Checking 0 named SQL queries
+2021-12-17 13:12:37 DEBUG [main]: EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-12-17 13:12:37 DEBUG [main]: Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@160e99e0
+2021-12-17 13:12:37 DEBUG [main]: Registering SessionFactory: c2baeb14-7c92-47bb-9a49-4de980fe030b (<unnamed>)
+2021-12-17 13:12:37 DEBUG [main]: Not binding SessionFactory to JNDI, no JNDI name configured
+2021-12-17 13:12:37 DEBUG [main]: select person0_.person_id as person_i2_3_0_, passports1_.passport_id as passport1_2_1_, birthcerti2_.birth_certificate_id as birth_ce1_0_2_, person0_.date_of_birth as date_of_3_3_0_, person0_.first_name as first_na4_3_0_, person0_.last_name as last_nam5_3_0_, person0_.patronymic as patronym6_3_0_, person0_.sex as sex1_3_0_, passports1_.issue_date as issue_da2_2_1_, passports1_.issue_department as issue_de3_2_1_, passports1_.number as number4_2_1_, passports1_.person_id as person_i6_2_1_, passports1_.seria as seria5_2_1_, passports1_.person_id as person_i6_2_0__, passports1_.passport_id as passport1_2_0__, birthcerti2_.father_id as father_i4_0_2_, birthcerti2_.issue_date as issue_da2_0_2_, birthcerti2_.mother_id as mother_i5_0_2_, birthcerti2_.number_certificate as number_c3_0_2_, birthcerti2_.person_id as person_i6_0_2_ from ro_person person0_ left outer join ro_passport passports1_ on person0_.person_id=passports1_.person_id left outer join ro_birth_certificate birthcerti2_ on person0_.person_id=birthcerti2_.person_id where person0_.person_id=?
+2021-12-17 13:12:37 DEBUG [main]: Result set row: 0
+2021-12-17 13:12:37 DEBUG [main]: Result row: EntityKey[register.domain.Person#1], null, null
+2021-12-17 13:12:37 DEBUG [main]: Result set contains (possibly empty) collection: [register.domain.Person.passports#1]
+2021-12-17 13:12:37 DEBUG [main]: Resolving attributes for [register.domain.PersonFemale#1]
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `dateOfBirth` : value = 1996-03-11
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`dateOfBirth`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `firstName` : value = Виктория
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`firstName`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `lasName` : value = Кузнецова
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`lasName`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `passports` : value = NOT NULL COLLECTION
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`passports`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `patronymic` : value = Николаевна
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`patronymic`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `birthCertificate` : value = 1
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`birthCertificate`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `birthCertificates` : value = NOT NULL COLLECTION
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`birthCertificates`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Processing attribute `marriageCertificates` : value = NOT NULL COLLECTION
+2021-12-17 13:12:37 DEBUG [main]: Attribute (`marriageCertificates`)  - enhanced for lazy-loading? - false
+2021-12-17 13:12:37 DEBUG [main]: Done materializing entity [register.domain.PersonFemale#1]
+2021-12-17 13:12:37 DEBUG [main]: 1 collections were found in result set for role: register.domain.Person.passports
+2021-12-17 13:12:37 DEBUG [main]: Collection fully initialized: [register.domain.Person.passports#1]
+2021-12-17 13:12:37 DEBUG [main]: 1 collections initialized for role: register.domain.Person.passports
+2021-12-17 13:12:37 DEBUG [main]: Initiating JDBC connection release from afterTransaction
+2021-12-17 13:12:37 DEBUG [main]: Loading collection: [register.domain.PersonFemale.birthCertificates#1]
+2021-12-17 13:12:37 DEBUG [main]: select birthcerti0_.mother_id as mother_i5_0_0_, birthcerti0_.birth_certificate_id as birth_ce1_0_0_, birthcerti0_.birth_certificate_id as birth_ce1_0_1_, birthcerti0_.father_id as father_i4_0_1_, birthcerti0_.issue_date as issue_da2_0_1_, birthcerti0_.mother_id as mother_i5_0_1_, birthcerti0_.number_certificate as number_c3_0_1_, birthcerti0_.person_id as person_i6_0_1_ from ro_birth_certificate birthcerti0_ where birthcerti0_.mother_id=?
+2021-12-17 13:12:37 DEBUG [main]: Preparing collection initializer : [register.domain.PersonFemale.birthCertificates#1]
+2021-12-17 13:12:37 DEBUG [main]: 1 collections were found in result set for role: register.domain.PersonFemale.birthCertificates
+2021-12-17 13:12:37 DEBUG [main]: Collection fully initialized: [register.domain.PersonFemale.birthCertificates#1]
+2021-12-17 13:12:37 DEBUG [main]: 1 collections initialized for role: register.domain.PersonFemale.birthCertificates
+2021-12-17 13:12:37 DEBUG [main]: Done loading collection
+2021-12-17 13:12:37 DEBUG [main]: Initiating JDBC connection release from afterTransaction
+2021-12-17 13:12:37 DEBUG [main]: Initiating JDBC connection release from afterTransaction
+2021-12-17 13:12:37 DEBUG [main]: Loading collection: [register.domain.PersonFemale.marriageCertificates#1]
+2021-12-17 13:12:37 DEBUG [main]: select marriagece0_.wife_id as wife_id7_1_0_, marriagece0_.marriage_certificate_id as marriage1_1_0_, marriagece0_.marriage_certificate_id as marriage1_1_1_, marriagece0_.active as active2_1_1_, marriagece0_.end_date as end_date3_1_1_, marriagece0_.husband_id as husband_6_1_1_, marriagece0_.issue_date as issue_da4_1_1_, marriagece0_.number_certificate as number_c5_1_1_, marriagece0_.wife_id as wife_id7_1_1_ from ro_marriage_certificate marriagece0_ where marriagece0_.wife_id=?
+2021-12-17 13:12:37 DEBUG [main]: Preparing collection initializer : [register.domain.PersonFemale.marriageCertificates#1]
+2021-12-17 13:12:37 DEBUG [main]: 1 collections were found in result set for role: register.domain.PersonFemale.marriageCertificates
+2021-12-17 13:12:37 DEBUG [main]: Collection fully initialized: [register.domain.PersonFemale.marriageCertificates#1]
+2021-12-17 13:12:37 DEBUG [main]: 1 collections initialized for role: register.domain.PersonFemale.marriageCertificates
+2021-12-17 13:12:37 DEBUG [main]: Done loading collection
+2021-12-17 13:12:37 DEBUG [main]: Initiating JDBC connection release from afterTransaction
+2021-12-17 13:12:37 DEBUG [main]: Initiating JDBC connection release from afterTransaction
