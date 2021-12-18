@@ -19,7 +19,7 @@ public class Passport {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="passport_id", nullable = false)
+	@Column(name="passport_id")
 	private Long passportId;
 	@ManyToOne(cascade = {CascadeType.REFRESH}, fetch = FetchType.LAZY)
 	@JoinColumn(name="person_id")

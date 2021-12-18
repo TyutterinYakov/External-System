@@ -11,6 +11,13 @@ public class MarriageController {
 	private MarriageManager marMg;
 	private static final Logger logger = LoggerFactory.getLogger(MarriageController.class);
 	
+	
+	
+	public void setMarriageManager(MarriageManager marMg) {
+		this.marMg = marMg;
+	}
+	
+	
 	public MarriageResponse findMarriageCertificate(MarriageRequest request) {
 		logger.info("findMarriageCertificate called");
 		return marMg.findMarriageCertificate(request);

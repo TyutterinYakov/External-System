@@ -21,7 +21,7 @@ public class PersonDao {
 
 		Query query = em.createNamedQuery("Person.findPersons");
 		
-		query.setParameter("pId", 1L);
+		query.setParameter("pId", 2L);
 		
 		
 		return query.getResultList();

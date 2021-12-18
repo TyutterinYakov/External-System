@@ -15,6 +15,7 @@
         
 
         <mapping class="register.domain.Person"></mapping>
+        <mapping class="register.domain.MarriageCertificate"></mapping>
     <!--     <mapping class="register.manager.PersonManager"></mapping> -->
 
 
