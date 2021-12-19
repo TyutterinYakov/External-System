@@ -2,60 +2,18 @@ package register.dao;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.Query;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-import register.business.MarriageManager;
 import register.domain.MarriageCertificate;
-import register.view.MarriageRequest;
 
-@Component
-public class MarriageDao {
-	private static final Logger logger = LoggerFactory.getLogger(MarriageDao.class);
+@Repository
+public interface MarriageDao extends JpaRepository<MarriageCertificate, Long>{
+	List<MarriageCertificate> findByNumber(String number);
 	
-	public MarriageDao() {
-		
-	}
-
-
-	
-	private EntityManager entityManager;
-	
-	@Value("${test.value}")
-	private String test;
-	
-	
-//	public MarriageDao() {
-//		EntityManagerFactory factory = Persistence.createEntityManagerFactory("persistence");
-//		em = factory.createEntityManager();
-//	}
-	
-
-
-	public void setTest(String test) {
-		this.test = test;
-	}
-
-
-	public MarriageCertificate findMarriageCertificate(MarriageRequest request) {
-		logger.info("findMarriageCertificate called:{}", test);
-//		
-//		Query query = em.createQuery("Select m from MarriageCertificate m "
-//				+ "inner join m.husband "
-//				+ "inner join m.wife "
-//				+ "where m.marriageCertificateId=:mNum");
-//		query.setParameter("mNum", request.getMarriageCertificateNumber());
-//		
-		
-		return null;
-	}
+	List<MarriageCertificate> findByNum(@Param("number") String number);
+	@Query("select mc from MarriageCertificate mc where mc.number = :number")
+	List<MarriageCertificate> findSomething(@Param("number") String number);
 }

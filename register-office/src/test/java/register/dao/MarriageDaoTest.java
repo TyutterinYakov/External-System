@@ -4,9 +4,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import register.domain.MarriageCertificate;
 import register.rest.MarriageController;
-import register.view.MarriageRequest;
 
 public class MarriageDaoTest {
 //	@Test

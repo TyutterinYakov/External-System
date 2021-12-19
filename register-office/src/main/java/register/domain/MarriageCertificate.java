@@ -11,12 +11,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 
 @Entity
 @Table(name="ro_marriage_certificate")
+@NamedQuery(name="MarriageCertificate.findByNum", 
+			query="SELECT mc from MarriageCertificate mc where mc.number=:number")
 public class MarriageCertificate {
 	
 	@Id

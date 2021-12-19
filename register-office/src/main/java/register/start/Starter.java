@@ -3,7 +3,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import register.rest.MarriageController;
-import register.view.MarriageRequest;
 
 public class Starter {
 	
@@ -13,7 +12,7 @@ public class Starter {
 		);
 		
 //		MarriageController controller = context.getBean(MarriageController.class);
-		MarriageController controller = context.getBean("controller", MarriageController.class);
-		controller.findMarriageCertificate(new MarriageRequest());
+//		MarriageController controller = context.getBean("controller", MarriageController.class);
+//		controller.findMarriageCertificate(new MarriageRequest());
 	}
 }

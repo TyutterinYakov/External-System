@@ -3,8 +3,6 @@ package register.dao;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
@@ -18,14 +16,16 @@ public class PersonDao {
 	
 	
 	public List<Person> findPersons(){
-
 		Query query = em.createNamedQuery("Person.findPersons");
-		
-		query.setParameter("pId", 2L);
-		
-		
 		return query.getResultList();
-		
+	}
+	
+	public Long addPerson(Person person) {
+
+		em.persist(person);
+		em.flush();
+			
+		return person.getPersonId();
 	}
 	
 	

@@ -28,10 +28,9 @@ import javax.persistence.DiscriminatorType;
 	@NamedQuery(name = "Person.findPersons",
 			query="SELECT p FROM Person p "
 					+ "LEFT JOIN FETCH p.passports "
-					+ "LEFT JOIN FETCH p.birthCertificate "
-					+ "where p.personId =:pId")
+					+ "LEFT JOIN FETCH p.birthCertificate ")
 })
-public class Person {
+public abstract class Person {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
