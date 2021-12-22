@@ -40,7 +40,7 @@ public class CheckPersonServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.setCharacterEncoding("UTF-8");
 		
-		String surName = req.getParameter("surname");
+		req.getParameter("surname");
 		
 		PersonRequest pr = new PersonRequest();
 		pr.setSurName(req.getParameter("surname"));
